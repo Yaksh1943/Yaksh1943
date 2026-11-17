@@ -48,12 +48,12 @@
       <animate attributeName="opacity" values=".55;.08;.55" dur="4s" repeatCount="indefinite"/>
     </circle>
     <!-- text -->
-    <text x="72" y="112" fill="#F5F7FF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="58" font-weight="700" letter-spacing="-1.5">Yaksh Varu</text>
-    <text x="75" y="158" fill="#AFC4FF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="500">AI/ML Engineer</text>
-    <rect x="75" y="183" width="430" height="3" rx="1.5" fill="url(#accent)"/>
-    <text x="75" y="225" fill="#E4E9FF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" font-weight="500">Engineering AI for the real world,</text>
-    <text x="75" y="255" fill="#C4B9FF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" font-weight="500">built around people.</text>
-    <text x="75" y="292" fill="#8299CB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="10" letter-spacing="3">INTELLIGENCE  ·  ENGINEERING  ·  HUMAN IMPACT</text>
+    <text x="75" y="102" fill="#F8FAFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="64" font-weight="800" letter-spacing="-1.5">Yaksh Varu</text>
+    <text x="75" y="148" fill="#AFC4FF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="30" font-weight="600">AI/ML Engineer</text>
+    <rect x="75" y="168" width="500" height="3.5" rx="1.75" fill="url(#accent)"/>
+    <text x="75" y="214" fill="#F0F4FF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="26" font-weight="600">Engineering AI for the real world,</text>
+    <text x="75" y="248" fill="#C4B9FF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="26" font-weight="600">built around people.</text>
+    <text x="75" y="290" fill="#9DB4E8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" letter-spacing="3">INTELLIGENCE  ·  ENGINEERING  ·  HUMAN IMPACT</text>
     <g fill="#79BFFF" opacity=".7">
       <circle cx="710" cy="55" r="2"/><circle cx="760" cy="245" r="2"/><circle cx="1150" cy="230" r="2"/>
       <circle cx="735" cy="145" r="1.5"/><circle cx="1135" cy="45" r="1.5"/>

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/banner.gif" width="100%" alt="Yaksh Varu — AI/ML Engineer. Engineering AI for the real world, built around people." />
+  <img src="./assets/banner.svg" width="100%" alt="Yaksh Varu — AI/ML Engineer. Engineering AI for the real world, built around people." />
 </p>
 
 <p align="center">
