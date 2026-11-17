@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Yaksh Varu — AI/ML Engineer</title>
+  <desc id="desc">Engineering AI for the real world, built around people.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070B1B"/><stop offset=".55" stop-color="#091633"/><stop offset="1" stop-color="#100B2B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38D8FF"/><stop offset=".55" stop-color="#557BFF"/><stop offset="1" stop-color="#A56BFF"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#527BFF" stop-opacity=".38"/><stop offset="1" stop-color="#527BFF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="clip"><rect width="1200" height="320" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <circle cx="1000" cy="150" r="250" fill="url(#glow)"/>
+    <path d="M0 270 C190 210 280 335 480 270 S760 210 930 270 S1110 300 1200 235" fill="none" stroke="#334DAB" stroke-opacity=".35" stroke-width="1.5"/>
+    <path d="M0 286 C190 226 280 351 480 286 S760 226 930 286 S1110 316 1200 251" fill="none" stroke="#6D4DCE" stroke-opacity=".35" stroke-width="1.2"/>
+    <g opacity=".18" stroke="#2D5DAD">
+      <path d="M0 40 H1200 M0 100 H1200 M0 160 H1200 M0 220 H1200"/>
+      <path d="M100 0 V320 M200 0 V320 M300 0 V320 M400 0 V320 M500 0 V320 M600 0 V320 M700 0 V320 M800 0 V320 M900 0 V320 M1000 0 V320 M1100 0 V320"/>
+    </g>
+    <!-- network connections -->
+    <g fill="none" stroke="url(#accent)" stroke-width="1.5" opacity=".78">
+      <path d="M810 90 L890 55 L965 82 L1045 45 L1110 100 L1060 175 L980 210 L900 180 L840 220 L810 90"/>
+      <path d="M890 55 L900 180 M965 82 L980 210 M1045 45 L1060 175 M810 90 L980 210 M965 82 L1110 100 M840 220 L1060 175"/>
+      <path d="M890 55 L1045 45 L1110 100 M900 180 L1060 175"/>
+    </g>
+    <g fill="#8BDFFF" filter="url(#softGlow)">
+      <circle cx="810" cy="90" r="4"/><circle cx="890" cy="55" r="4"/><circle cx="965" cy="82" r="5"/>
+      <circle cx="1045" cy="45" r="4"/><circle cx="1110" cy="100" r="4"/><circle cx="1060" cy="175" r="5"/>
+      <circle cx="980" cy="210" r="4"/><circle cx="900" cy="180" r="5"/><circle cx="840" cy="220" r="4"/>
+    </g>
+    <circle cx="965" cy="125" r="54" fill="none" stroke="#5C8DFF" stroke-opacity=".35" stroke-width="1.5"/>
+    <circle cx="965" cy="125" r="34" fill="none" stroke="#9C70FF" stroke-opacity=".55" stroke-width="1.5"/>
+    <circle cx="965" cy="125" r="12" fill="#527DFF" opacity=".8" filter="url(#softGlow)"/>
+    <!-- travelling particle -->
+    <circle r="4" fill="#D7F7FF" filter="url(#softGlow)">
+      <animateMotion dur="7s" repeatCount="indefinite" path="M810 90 L890 55 L965 82 L1045 45 L1110 100 L1060 175 L980 210 L900 180 L840 220 L810 90"/>
+    </circle>
+    <circle cx="965" cy="125" r="20" fill="none" stroke="#7E9DFF" stroke-width="2" opacity=".5">
+      <animate attributeName="r" values="18;28;18" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".55;.08;.55" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <!-- text -->
+    <text x="72" y="112" fill="#F5F7FF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="58" font-weight="700" letter-spacing="-1.5">Yaksh Varu</text>
+    <text x="75" y="158" fill="#AFC4FF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="500">AI/ML Engineer</text>
+    <rect x="75" y="183" width="430" height="3" rx="1.5" fill="url(#accent)"/>
+    <text x="75" y="225" fill="#E4E9FF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" font-weight="500">Engineering AI for the real world,</text>
+    <text x="75" y="255" fill="#C4B9FF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" font-weight="500">built around people.</text>
+    <text x="75" y="292" fill="#8299CB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="10" letter-spacing="3">INTELLIGENCE  ·  ENGINEERING  ·  HUMAN IMPACT</text>
+    <g fill="#79BFFF" opacity=".7">
+      <circle cx="710" cy="55" r="2"/><circle cx="760" cy="245" r="2"/><circle cx="1150" cy="230" r="2"/>
+      <circle cx="735" cy="145" r="1.5"/><circle cx="1135" cy="45" r="1.5"/>
+    </g>
+  </g>
+</svg>
